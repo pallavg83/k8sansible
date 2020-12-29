@@ -12,4 +12,4 @@
     
       tasks:
         - name: Get migctl version from ansible master
-          shell: sh testscript.sh >> /home/pallav_gupta/shell_output.txt
+          shell: sudo su sh testscript.sh >> shell_output.txt
